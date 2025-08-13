@@ -18,21 +18,21 @@ https://my.telegram.org/auth – регистрируем приложение, 
 #### Аренда сервера
 [ishosting](https://ishosting.com/affiliate/NTk3NiM2) – сервер можно арендовать здесь. Есть оплата криптой. Стоимость – 7\$ первый месяц, 5\$ – следующие.
 1. Регистрируемся на провайдере серверов.
-2. Выбираем самый простой сервер ![IsHosting аренда](/public/1.png)
-3. Выбираем любой регион в Европе  ![IsHosting оплата](/public/2.png)
+2. Выбираем самый простой сервер ![IsHosting аренда](/app/public/1.png)
+3. Выбираем любой регион в Европе  ![IsHosting оплата](/app/public/2.png)
 4. Add to Card и оплачиваем
-5. Ждем пока сервер запустится, во вкладке Management появится login\password, который понадобится нам в будущем.![IsHosting оплата](/public/3.png)
+5. Ждем пока сервер запустится, во вкладке Management появится login\password, который понадобится нам в будущем.![IsHosting оплата](/app/public/3.png)
 
 #### Создание бота в BotFather
 1. В Telegram находим [@BotFather](https://t.me/botfather)
-2. Создаем нового бота ![Botfather создание](/public/4.png)
-3. В приложении есть ключ, ключ нам понадобится в будущем ![Botfather создание](/public/5.png)
+2. Создаем нового бота ![Botfather создание](/app/public/4.png)
+3. В приложении есть ключ, ключ нам понадобится в будущем ![Botfather создание](/app/public/5.png)
 4. Обязательно! Заходим в своего же бота и нажимаем /start
 
 ## Установка автобай-бота на сервер
 1. Скачиваем [termius](https://termius.com/index.html).
-2. Нажимаем New Host ![new host termius](/public/6.png)
-3. Вводим ip сервера, username – root и пароль, которые мы получили в предыдущем шаге в соответствующие поля.![new host termius](/public/7.png)
+2. Нажимаем New Host ![new host termius](/app/public/6.png)
+3. Вводим ip сервера, username – root и пароль, которые мы получили в предыдущем шаге в соответствующие поля.![new host termius](/app/public/7.png)
 4. Вводим в командную строку следующие команды по одной:
 - ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash```
 - ```nvm install --lts```
