@@ -1,5 +1,5 @@
 # Используем официальный образ Node.js
-FROM node:lts
+FROM node:lts-alpine
 
 # Устанавливаем рабочую директорию в контейнере
 WORKDIR /usr/src/app
@@ -8,6 +8,7 @@ WORKDIR /usr/src/app
 COPY app/package*.json ./
 
 # Устанавливаем зависимости
+RUN npm install -g pm2
 RUN npm install
 
 # Копируем исходный код приложения
